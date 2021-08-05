@@ -8,18 +8,16 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer/Footer';
 import Privacy from './components/pages/Privacy/Privacy'
-
 import ReactGA from 'react-ga';
-const TRACKING_ID = "UA-204236699-1"; // YOUR_OWN_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
 
+ReactGA.initialize("UA-204236699-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
 
-  
-
   return (
     <Router>
+      <div className="App">
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
@@ -29,7 +27,7 @@ const App = () => {
         <Route path='/Privacy' component={Privacy} />
       </Switch>
       <Footer />
-      
+      </div>
     </Router>
   );
 }
