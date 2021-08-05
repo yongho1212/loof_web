@@ -9,7 +9,15 @@ import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer/Footer';
 import Privacy from './components/pages/Privacy/Privacy'
 
-function App() {
+import ReactGA from 'react-ga';
+const TRACKING_ID = "UA-204236699-1"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
+
+const App = () => {
+
+  
+
   return (
     <Router>
       <Navbar />

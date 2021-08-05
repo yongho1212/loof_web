@@ -1,10 +1,10 @@
 .navbar {
-  background: #1c2237;
-  height: 80px;
+  background: #fb009e;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 20pt;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -14,6 +14,8 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
+  align-items: center;
+  margin: 10pt;
 }
 
 .container {
@@ -31,9 +33,15 @@
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 40pt;
   display: flex;
   align-items: center;
+  margin-bottom: 10pt;
+  font-weight: bold;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
 }
 
 .navbar-icon {
@@ -47,6 +55,7 @@
   list-style: none;
   text-align: center;
   justify-content: end;
+  
 }
 
 .nav-item {
