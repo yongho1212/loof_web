@@ -25,7 +25,7 @@ function Footer() {
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/Products'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
+            <Link to='/Privacy'>Careers</Link>
             <a href='/Privacy' target="_blank">Privacy</a>
             <Link to='/'>Terms of Service</Link>
           </div>
@@ -33,7 +33,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <a href='/Notice' target="_blank">Notice</a>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>

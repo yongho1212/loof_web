@@ -1,0 +1,50 @@
+.bg {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 800px;
+     background-size: cover;
+     background-position: center;
+     will-change: opacity;
+   }
+.image-container {
+     height: 700px;
+     
+}
+.image-animate {
+     z-index: 10;
+}
+.text-container {
+     width: 600px;
+     height: 500px;
+     margin-left: -300px;
+     margin-top: -200px;
+     top: 50%;
+     left: 50%;
+     z-index: 100;
+     position: absolute;
+     
+}
+.text-l1 {
+     font-size: 100px;
+     font-weight: bolder;
+     color: #49ffbd;
+    /* text-shadow: 
+     -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  ;*/
+}
+.text-l2 {
+     font-size: 100px;
+     font-weight: bold;
+     color: #49ffbd;
+     justify-self:center;
+}
+.text-l3 {
+     font-size: 150px;
+     font-weight: bold;
+     color: #49ffbd;
+}
+   

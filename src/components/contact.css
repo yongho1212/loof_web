@@ -1,14 +1,47 @@
+  
+  
+  .ContactForm {
+    background-color: #49ffbd;
+    height: 700px;
+    
+  }
   input {
      width: 600px;
+    
    }
    textarea {
      height: 10em;
      width: 600px;
+     
    }
    .form-control-formInput {
     margin: 10px;
     align-items: center;
     justify-content: center;
-
-
    }
+   #contact-form {
+     margin-top: 60px;
+   }
+   .col-6 {
+    margin-bottom: 30px;
+   }
+   .col {
+    margin-bottom: 30px;
+   }
+   .text-container {
+     margin-bottom: 30px;
+   }
+   .text-l1 {
+    font-size: 45px;
+    font-weight: bold;
+   }
+   .text-l2 {
+    font-size: 24px;
+  }
+  .text-l3 {
+    font-size: 24px;
+  }
+  .btn-flat {
+    background-color: purple;
+    color: azure;
+  }

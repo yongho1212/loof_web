@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
-import './Pricing.css';
+import './Download.css';
 import { FaFire } from 'react-icons/fa';
 import { BsXDiamondFill } from 'react-icons/bs';
 import { GiCrystalize } from 'react-icons/gi';
@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom';
 import {GrAppleAppStore, } from 'react-icons/gr';
 import { IoLogoGooglePlaystore } from 'react-icons/io5';
 
-function Pricing() {
+function Download() {
   return (
-    <IconContext.Provider value={{ color: '#fff', size: 64 }}>
+    <IconContext.Provider value={{ color: '#000', size: 64 }}>
       <div className='pricing__section'>
         <div className='pricing__wrapper'>
           <h1 className='pricing__heading'>Join Now</h1>
@@ -55,4 +55,4 @@ function Pricing() {
     </IconContext.Provider>
   );
 }
-export default Pricing;
+export default Download;

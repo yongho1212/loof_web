@@ -56,8 +56,14 @@ const ContactForm = () => {
            <div className='row'>
              <div className='col-12 text-center'>
                <div className='contactForm'>
+                    
                     <form onSubmit={handleSubmit(onSubmit)} id='contact-form' noValidate>
                           {/* Row 1 of form */}
+                          <div className='text-container'>
+                              <div className='text-l1'>Contact Us</div>
+                              <div className='text-l2'>Send us a message anything! </div>
+                              <div className='text-l3'>feedback, concerns or invite party!</div>
+                         </div>
                          <div className='row formRow'>
 
                               <div className='col-6'>
@@ -68,7 +74,7 @@ const ContactForm = () => {
                                    {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                               </div>
 
-                              <div>
+                              <div className='col-6'>
                                    <Form.Control 
                                    className='form-control-formInput'
                                    type='email'
@@ -109,8 +115,8 @@ const ContactForm = () => {
                          </div>
                          
                        
-                         <Button className='submit-btn' variant="outline-primary" type="submit" disabled={disabled}>
-                         Submit
+                         <Button style={{color:'#fff', backgroundColor:'#fb009e', fontWeight:'bold'}} className='submit-btn' variant="flat" type="submit" disabled={disabled}>
+                         SEND
                          </Button>  
                          
                     </form>

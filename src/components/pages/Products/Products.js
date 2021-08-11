@@ -1,13 +1,13 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
-import Pricing from '../../Pricing';
+import Download from '../../Download';
+import ContactForm from '../../contact';
 
 function Products() {
   return (
     <>
-      <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjTwo} />
+      <ContactForm />
     </>
   );
 }

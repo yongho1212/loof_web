@@ -1,5 +1,5 @@
 .pricing__section {
-  padding: 100px 0 160px;
+  padding: 50px 0 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,12 +7,14 @@
 }
 
 .pricing__container-card {
-  background:  #276afb;
+  background:  #49ffbd;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
   height: 280px;
   text-decoration: none;
   border-radius: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -51,7 +53,7 @@
   height: 500px;
   padding: 24px;
   align-items: center;
-  color: #fff;
+  color: #000;
 }
 
 .pricing__container-cardInfo h3 {
