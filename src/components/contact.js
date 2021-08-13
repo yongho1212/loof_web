@@ -56,14 +56,15 @@ const ContactForm = () => {
            <div className='row'>
              <div className='col-12 text-center'>
                <div className='contactForm'>
-                    
-                    <form onSubmit={handleSubmit(onSubmit)} id='contact-form' noValidate>
-                          {/* Row 1 of form */}
-                          <div className='text-container'>
+                         <div className='text-container'>
                               <div className='text-l1'>Contact Us</div>
                               <div className='text-l2'>Send us a message anything! </div>
                               <div className='text-l3'>feedback, concerns or invite party!</div>
                          </div>
+                         <div className='form-container'>
+                    <form onSubmit={handleSubmit(onSubmit)} id='contact-form' noValidate>
+                          {/* Row 1 of form */}
+                          
                          <div className='row formRow'>
 
                               <div className='col-6'>
@@ -120,6 +121,7 @@ const ContactForm = () => {
                          </Button>  
                          
                     </form>
+                    </div>
                     <br />
                     <br />
                </div>

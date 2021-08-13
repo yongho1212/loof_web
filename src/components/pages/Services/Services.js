@@ -6,7 +6,6 @@ import Download from '../../Download';
 function Services() {
   return (
     <>
-      <Download />
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjThree} />
     </>

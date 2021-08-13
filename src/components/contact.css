@@ -1,5 +1,4 @@
   
-  
   .ContactForm {
     background-color: #49ffbd;
     height: 700px;
@@ -20,26 +19,29 @@
     justify-content: center;
    }
    #contact-form {
-     margin-top: 60px;
+     margin-top: 190px;
    }
    .col-6 {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
    }
    .col {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
    }
    .text-container {
-     margin-bottom: 30px;
+     
    }
    .text-l1 {
     font-size: 45px;
     font-weight: bold;
+    color: #000;
    }
    .text-l2 {
     font-size: 24px;
+    color: #000;
   }
   .text-l3 {
     font-size: 24px;
+    color: #000;
   }
   .btn-flat {
     background-color: purple;

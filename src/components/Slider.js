@@ -7,6 +7,8 @@ const slides = [
   'https://images.unsplash.com/photo-1544698310-74ea9d1c8258?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2090&q=80',
   'https://images.unsplash.com/photo-1504474127570-b85e37972adc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
   'https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+  'https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1457&q=80',
+  
 ]
 
 export default function Slider() {
@@ -19,20 +21,20 @@ export default function Slider() {
     config: { duration: 500 },
   })
   useEffect(() => {
-    const t = setInterval(() => set(state => (state + 1) % slides.length), 4000)
+    const t = setInterval(() => set(state => (state + 1) % slides.length), 6000)
     return () => clearTimeout(t)
   }, [])
   return (
        <div className="image-container">
             <div className="text-container">
-                 <div className="text-l1">
-                 Get
+                 <div className="text-l1" style={{color:'#49ffbd', fontSize:'100px', marginBottom:'-30px'}}>
+                    GET
                  </div>
-                 <div className="text-l2">
+                 <div className="text-l2" style={{color:'#49ffbd', fontSize:'100px'}}>
                       TOGETHER
                  </div>
-                 <div className="text-l3">
-                      !
+                 <div className="text-l3" style={{color:'#fb009e', fontSize:'180px'}}>
+                        LOOF
                  </div>
             </div>
     <div className="image-animate">

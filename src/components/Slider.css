@@ -25,16 +25,11 @@
      z-index: 100;
      position: absolute;
      
+     
 }
 .text-l1 {
      font-size: 100px;
-     font-weight: bolder;
-     color: #49ffbd;
-    /* text-shadow: 
-     -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;  ;*/
+     font-weight: bolder; 
 }
 .text-l2 {
      font-size: 100px;
