@@ -37,7 +37,8 @@ function Navbar() {
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               {/*<MdFingerprint className='navbar-icon' />*/}
-              ! LOOF
+              <img className='logo-img' src={"/images/halflogo2.png"} />
+               LOOF
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

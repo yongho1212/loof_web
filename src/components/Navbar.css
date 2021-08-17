@@ -59,6 +59,10 @@ a:hover{ color:#49ffbd; }
   justify-content: end;
   
 }
+.logo-img {
+  width: 90px;
+  margin-right: 20px;
+}
 
 .nav-item {
   height: 80px;
@@ -93,6 +97,7 @@ a:hover{ color:#49ffbd; }
     position: relative;
     
   }
+  
 
   .nav-menu {
     display: flex;
@@ -104,6 +109,7 @@ a:hover{ color:#49ffbd; }
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    
   }
 
   .nav-menu.active {
@@ -119,10 +125,11 @@ a:hover{ color:#49ffbd; }
     padding: 2rem;
     width: 100%;
     display: table;
+    color: #000;
   }
 
   .nav-links:hover {
-    color: #000;
+    color: #fb009e;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }

@@ -56,7 +56,7 @@ const ContactForm = () => {
            <div className='row'>
              <div className='col-12 text-center'>
                <div className='contactForm'>
-                         <div className='text-container'>
+                         <div className='text-container-c'>
                               <div className='text-l1'>Contact Us</div>
                               <div className='text-l2'>Send us a message anything! </div>
                               <div className='text-l3'>feedback, concerns or invite party!</div>

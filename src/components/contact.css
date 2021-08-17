@@ -19,7 +19,7 @@
     justify-content: center;
    }
    #contact-form {
-     margin-top: 190px;
+     margin-top: 50px;
    }
    .col-6 {
     margin-bottom: 25px;
@@ -27,8 +27,11 @@
    .col {
     margin-bottom: 25px;
    }
-   .text-container {
+   .text-container-c {
+     top: 30px;
+     position: relative;
      
+     height: 150px;
    }
    .text-l1 {
     font-size: 45px;

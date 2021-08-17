@@ -31,14 +31,14 @@ export default function Slider() {
   return (
        <div className="image-container">
             <div className="text-container">
-                 <div className="text-l1" style={{color:'#49ffbd', fontSize:'100px', marginBottom:'-30px'}}>
-                    GET
+                 <div id="text-l1" >
+                    GATHER
                  </div>
-                 <div className="text-l2" style={{color:'#49ffbd', fontSize:'100px'}}>
+                 <div id="text-l2" >
                       TOGETHER
                  </div>
-                 <div className="text-l3" style={{color:'#fb009e', fontSize:'180px'}}>
-                        LOOF
+                 <div id="text-l3" >
+                        LOOF!
                  </div>
             </div>
     <div className="image-animate">

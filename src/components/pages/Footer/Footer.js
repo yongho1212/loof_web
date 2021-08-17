@@ -39,7 +39,11 @@ function Footer() {
           
           <div className='footer-link-items'>
             <h2>SNS</h2>
-            <Link to='/'>Instagram</Link>
+            <Link 
+              to={
+                '//www.instagram.com/loof_korea/'
+              }
+              target='_blank' >Instagram</Link>
             <Link to='/'>Facebook</Link>
 
             <Link to='/'>Twitter</Link>
@@ -66,7 +70,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//www.instagram.com/loof_korea/'
               target='_blank'
               aria-label='Instagram'
             >
@@ -75,7 +79,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                ''
               }
               target='_blank'
               aria-label='Youtube'
