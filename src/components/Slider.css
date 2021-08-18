@@ -31,16 +31,19 @@
      font-Size:100px;
      margin-Bottom:-30px;
      font-weight: bold;
+     transform: rotate(-11deg);
 }
 #text-l2 {
      color:#49ffbd; 
      font-Size:100px;
      font-weight: bold;
+     transform: rotate(-11deg);
 }
 #text-l3 {
      color: #fb009e;
      font-size: 200px;
      font-weight: bold;
+     transform: rotate(-11deg);
 }
    
 @media screen and (max-width: 960px) {
