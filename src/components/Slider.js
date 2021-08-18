@@ -30,15 +30,16 @@ export default function Slider() {
   return (
        <div className="image-container">
             <div className="text-container">
+            <div id="text-l3" >
+                           LOOF!
+                 </div>
                  <div id="text-l1" >
-                    GATHER
+                 &nbsp;&nbsp;&nbsp;&nbsp;GATHER  &nbsp;   TOGETHER
                  </div>
                  <div id="text-l2" >
-                      TOGETHER
+                     
                  </div>
-                 <div id="text-l3" >
-                        LOOF!
-                 </div>
+                 
             </div>
     <div className="image-animate">
       {transitions((style, i) => (

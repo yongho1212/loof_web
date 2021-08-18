@@ -16,34 +16,37 @@
      z-index: 10;
 }
 .text-container {
-     width: 600px;
+     width: 1200px;
      height: 500px;
      margin-left: -300px;
      margin-top: -200px;
-     top: 50%;
-     left: 50%;
+     top: 40%;
+     left: 18%;
      z-index: 100;
      position: absolute;
+     
 }
 
 #text-l1 {
      color:#49ffbd; 
-     font-Size:100px;
+     font-Size:80px;
      margin-Bottom:-30px;
      font-weight: bold;
      transform: rotate(-11deg);
 }
 #text-l2 {
      color:#49ffbd; 
-     font-Size:100px;
+     font-Size:90px;
      font-weight: bold;
      transform: rotate(-11deg);
+     margin-bottom: -80px;
 }
 #text-l3 {
      color: #fb009e;
-     font-size: 200px;
+     font-size: 280px;
      font-weight: bold;
      transform: rotate(-11deg);
+     margin-bottom: -80px;
 }
    
 @media screen and (max-width: 960px) {
