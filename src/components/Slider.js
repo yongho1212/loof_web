@@ -30,15 +30,14 @@ export default function Slider() {
   return (
        <div className="image-container">
             <div className="text-container">
-            <div id="text-l3" >
-                           LOOF!
+                <div id="text-l3" >
+                           LOOF!{"\n"}
                  </div>
+                 
                  <div id="text-l1" >
                  &nbsp;&nbsp;&nbsp;&nbsp;GATHER  &nbsp;   TOGETHER
                  </div>
-                 <div id="text-l2" >
-                     
-                 </div>
+                
                  
             </div>
     <div className="image-animate">

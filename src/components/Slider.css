@@ -56,20 +56,27 @@
      }
      #text-l1 {
           color:#49ffbd; 
-          font-Size:50px;
-          margin-Bottom:10px;
-          font-weight: bold;
+     font-Size:80px;
+     margin-Bottom:-30px;
+     font-weight: bold;
+     transform: rotate(-11deg);
+     margin-top: 60px;
      }
      #text-l2 {
           color:#49ffbd; 
-          font-Size:50px;
-          margin-Bottom:10px;
+          font-Size:90px;
           font-weight: bold;
+          transform: rotate(-11deg);
+          margin-bottom: -80px;
      }
      #text-l3 {
           color: #fb009e;
-          font-size: 100px;
+          font-size: 120px;
           font-weight: bold;
+         
+     font-weight: bold;
+     transform: rotate(-11deg);
+     
      }
      .text-container {
           width: 600px;

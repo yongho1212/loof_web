@@ -3,6 +3,7 @@ import './App.css';
 import Main from './components/pages/Main/Main';
 import Appintro from './components/pages/Appintro/Appintro';
 import Mission from './components/pages/Mission/Mission';
+import Notice from './components/pages/Notice/Notice';
 import Contactus from './components/pages/Contactus/Contactus';
 import Aboutus from './components/pages/Aboutus/Aboutus';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/Contactus' component={Contactus} />
         <Route path='/Aboutus' component={Aboutus} />
         <Route path='/Privacy' component={Privacy} />
+        <Route path='/Notice' component={Notice} />
       </Switch>
       <Footer />
       </div>

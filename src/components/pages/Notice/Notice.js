@@ -1,20 +1,26 @@
 import './Notice.css';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {ListGroup} from 'react-bootstrap';
 
 function Notice() {
   return (
     <>
       <div className="notice-container">
            
-          <div>
-          notice
+          <div className="notice-header">
+          공지사항
           </div>
-          <div>
-          notice
-          </div>
-          <div>
-          notice
-          </div>
+
+          <ListGroup defaultActiveKey="#link1" >
+
+            <ListGroup.Item action href="#link1" className="list-touch">
+              공지사항 #1
+            </ListGroup.Item>
+            
+            
+
+          </ListGroup>
           
       </div>
       
