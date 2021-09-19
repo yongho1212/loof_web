@@ -17,7 +17,9 @@ function Notice() {
             <ListGroup.Item action href="#link1" className="list-touch">
               공지사항 #1
             </ListGroup.Item>
-            
+            <ListGroup.Item action href="#link1" className="list-touch">
+              공지사항 #2
+            </ListGroup.Item>
             
 
           </ListGroup>
