@@ -1,11 +1,11 @@
-import './Notice.css';
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './Notice.css';
+
 import {ListGroup} from 'react-bootstrap';
 
-function Notice() {
+const Notice = () => {
   return (
-    <>
+    
       <div className="notice-container">
            
           <div className="notice-header">
@@ -26,7 +26,7 @@ function Notice() {
           
       </div>
       
-    </>
+    
   );
 }
 
