@@ -55,7 +55,7 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               {/*<MdFingerprint className='navbar-icon' />*/}
-              ! LOOF
+            LOOF
             </Link>
           </div>
           <small className='website-rights'>LOOF © 2021</small>

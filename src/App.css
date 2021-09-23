@@ -8,6 +8,11 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
