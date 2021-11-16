@@ -30,8 +30,8 @@
    .text-container-c {
      top: 30px;
      position: relative;
+     margin-bottom: 40px;
      
-     height: 150px;
    }
    .text-l1 {
     font-size: 45px;
