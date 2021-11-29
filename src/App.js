@@ -9,7 +9,8 @@ import Aboutus from './components/pages/Aboutus/Aboutus';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer/Footer';
-import Privacy from './components/pages/Privacy/Privacy'
+import Privacy from './components/pages/Privacy/Privacy';
+import Terms from './components/pages/Terms/Terms';
 import ReactGA from 'react-ga';
 
 ReactGA.initialize("UA-204236699-1");
@@ -29,6 +30,7 @@ const App = () => {
         <Route path='/Aboutus' component={Aboutus} />
         <Route path='/Privacy' component={Privacy} />
         <Route path='/Notice' component={Notice} />
+        <Route path='/Terms' component={Terms} />
       </Switch>
       <Footer />
       </div>

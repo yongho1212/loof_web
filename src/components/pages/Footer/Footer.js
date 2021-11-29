@@ -26,7 +26,8 @@ function Footer() {
             
             <Link to='/Aboutus'>Team</Link>
             <a href='/Privacy' target="_blank">Privacy</a>
-            <Link to='/'>Terms of Service</Link>
+            <a href='/Terms' target="_blank">Terms</a>
+            
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
