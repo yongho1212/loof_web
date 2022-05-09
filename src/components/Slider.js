@@ -31,7 +31,7 @@ export default function Slider() {
        <div className="image-container">
             <div className="text-container">
                 <div id="text-l3" >
-                           LOOF!{"\n"}
+                           LOOF!!{"\n"}
                  </div>
                  
                  <div id="text-l1" >
